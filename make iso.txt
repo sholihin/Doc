@@ -1,0 +1,5 @@
+# copy disc to image
+dd if=/dev/cdrom of=~/cdrom_image.iso
+
+# make iso
+mkisofs -o /tmp/cd.iso /tmp/directory/
