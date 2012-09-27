@@ -1,0 +1,1 @@
+- kontainer adalah komponen yang dapat berisi komponen AWT lainnya
