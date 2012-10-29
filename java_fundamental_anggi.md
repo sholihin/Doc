@@ -1,17 +1,55 @@
-# java memiliki OOP (Object Oriented Programming)
-# java memilik 
-- class
-- package
-- objek		--> mahasiswa a = new mahasiswa();
+# Konsep OOP dan JAVA #
 
-contoh : 
-- class itu ibarat cetakan kue / loyang
-- objek adalah hasil dari cetakan kue tersebut
-- contruktor adalah 
+## Pengertian Java ##
+
+Apa itu Java?? Java adalah sebuah bahasa pemrograman pada komputer sama seperti pendahulunya c++ .
+Bahasa pemrograman ini dikembangkan oleh `Sun microsystems` yang dikembangkan pada `tahun 1995` .
+Awalnya java diciptakan pada `tahun 1991` oleh `Patrick Naughton, Mike Sheridan , James Gosling dan Bill Joy` beserta programer dari `Sun Microsystems` .
+Uniknya nama java diambil dari nama pulau `Jawa` ( bahasa inggris dari jawa ) karena `James Gosling` si `"Bapak Java"` menyukai kopi tubruk yang berasal dari pulau `Jawa` .
+Jadi kita perlu berbangga menjadi warga negara Indonesia .
+
+Java sendiri merupakan bahasa pemrograman yang berbasis `OOP` atau kepanjangan dari `Object Oriented Programming` yang artinya adalah
+sebuah cara pandang ( `paradigma` ) dalam memecahkan masalah di dunia nyata dianalogikan kedalam bentuk `object` dan `struktur data`
+yang didalamnya terdapat kumpulan `item data` disebut `variable` dan `method/fungsi` yang saling berinteraksi dalam sebuah struktur program.
+
+Pemrograman Berorientasi Objek (Object Oriented Programming/OOP) merupakan pemrograman yang berorientasikan kepada objek,
+dimana semua data dan fungsi dibungkus dalam class-class atau object-object. Setiap object dapat menerima pesan, memproses data, mengirim, menyimpan dan memanipulasi data.
+Beberapa object berinteraksi dengan saling memberikan informasi satu terhadap yang lainnya.
+Masing-masing object harus berisikan informasi mengenai dirinya sendiri dan dapat dihubungkan dengan Object yang lain.
+Jadi, secara mudah OOP dapat disimpulkan sebagai suatu teknik atau metode untuk menangani kompleksitas pembuatan program.
+Jika mengikuti aturan-aturan dalam metode tersebut maka program yang dibuat akan lebih mudah dikembangkan.
+Sedikit perbandingan tambahan dengan bahasa C dan C++, Java banyak mewarisi konsep orientasi objek dari C++ namun dengan menghilangkan aspek-aspek kerumitan dalam bahasa C++ tanpa mengurangi kekuatannya.
+Hal ini mempermudah programer pemula untuk mempelajari Java namun mengurangi keleluasaan programer berpengalaman dalam mengutak-atik sebuah program.
+Di balik kemudahan yang ditawarkan Java, luasnya fasilitas library Java sendiri membuat seorang programer membutuhkan waktu yang tidak singkat untuk dapat menguasai penggunaan library-library tersebut.
+
+Java memiliki :
+ 
+- class
+
+```
+public class MainClass {
+    
+}
+```
+- package dan
+
+```
+package latihan.java.fundamental;
+```
+- objek
+
+```
+mahasiswa a = new mahasiswa();
+```
+
+### Sebagai contoh : ### 
+- class itu ibarat cetakan kue atau loyang
+- objek adalah hasil dari loyang tersebut
+- Constructor adalah 
 
 # komponen yg ada pada class :
 - porperti/variabel        --> private String nama;
-- contruktor      --> bisa lebih dari 1 
+- Constructor      --> bisa lebih dari 1 
 - method		  --> berikut contohnya
 
 ``` java
@@ -27,9 +65,9 @@ ada function dan prosedur
 - 
 
 # cara menginstankan suatu class   --> mahasiswa a = new mahasiswa();
-# didalam suatu class secara default memiliki suatu contruktor 
+# didalam suatu class secara default memiliki suatu Constructor 
 # parameter adalah untuk memberi uang ketika minta tolong beli roti
-- kalo mau buat contruktor lebih dari 1 harus menyertakan contruktor yang di buat secara default oleh java-nya 
+- kalo mau buat Constructor lebih dari 1 harus menyertakan Constructor yang di buat secara default oleh java-nya 
 contoh secara default : 
 
 ``` java
@@ -83,7 +121,7 @@ public class Mahasiswa {
     private String nama;
     private String alamat;
 
-    // ini construktor yang di buat secara manual, butuh default contruktor : public Mahasiswa() { }
+    // ini construktor yang di buat secara manual, butuh default Constructor : public Mahasiswa() { }
     public Mahasiswa() {
     }
     
@@ -93,7 +131,7 @@ public class Mahasiswa {
         this.alamat = alamat;
         
     }
-    //end contruktor manual
+    //end Constructor manual
 
     public String getAlamat() {
         return alamat;
