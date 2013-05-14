@@ -1,0 +1,14 @@
+access | class method | nama method | parameter argumen |
+       |              |             |                   |
+public | static 	  | void 		| main (String[] xx)| {}
+
+jika `void` tidak memerlukan nilai balik
+jika pulic Integer memerlukan return hasil; atau nilai balik
+
+access modifier
+---------------
+
+1. public : boleh dipakai dimana saja
+2. <kosong> : hanya dalam package yang sama
+3. protected : hanya dapat dipakai pada package yang sama atau -class turunan
+4. private : dapat dipakai pada class yang sama
