@@ -13,7 +13,7 @@
  
 ```cmd 
  
- javac -d nama_folder\nama_class.java
+ javac -d nama_tujuan nama_asal\nama_class.java
  
 ```
 ### Cara Running Class ###
