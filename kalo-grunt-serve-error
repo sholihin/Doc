@@ -1,0 +1,5 @@
+npm install -g yo grunt-cli bower
+npm install -g generator-angular generator-karma
+yo angular
+bower install angular-ui
+grunt test
